@@ -122,17 +122,17 @@ export default function Contact() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100">
                   <Mail size={19} />
                 </span>
-                hello@aruvixa.com
+                aruvixa@aruvixa.com
               </a>
 
               <a
-                href="tel:+910000000000"
+                href="tel:+918122990435"
                 className="flex items-center gap-4 text-slate-700 transition hover:text-blue-600"
               >
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100">
                   <Phone size={19} />
                 </span>
-                +91 XXXXX XXXXX
+                +91 8122990435
               </a>
 
               <div className="flex items-center gap-4 text-slate-700">
