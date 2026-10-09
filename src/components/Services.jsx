@@ -121,11 +121,7 @@ export default function Services() {
                   {service.description}
                 </p>
 
-                {/* Bottom action */}
-                <div className="mt-8 flex items-center gap-2 text-sm font-semibold text-slate-400 transition-all duration-300 group-hover:gap-4 group-hover:text-blue-600">
-                  Explore service
-                  <span>→</span>
-                </div>
+                
 
                 {/* Decorative glow */}
                 <div className="pointer-events-none absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-blue-200/20 blur-3xl transition duration-500 group-hover:bg-blue-300/40" />
