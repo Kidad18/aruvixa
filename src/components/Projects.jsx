@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const projects = [
   {
     number: "01",
-    category: "AI COMMUNICATION",
-    title: "AI-Powered Mass Communication Platform",
+    category: "AI COMMUNICATION  In development",
+    title: "Aruvixa PR: AI Personal PR & Communications Platform",
     description:
-      "A cloud-based platform designed to help businesses create, manage, and streamline communication across multiple channels using AI-powered tools and APIs.",
-    tags: ["Artificial Intelligence", "API Integration", "Web App"],
+      "An AI assistant that researches your industry, spots communication opportunities, and drafts LinkedIn posts for you to approve. Built for founders and professionals.",
+    tags: ["Artificial Intelligence", "API Integration", "Research Automation", "LinkedIn"],
   },
   {
     number: "02",
