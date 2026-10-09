@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const projects = [
   {
     number: "01",
-    category: "Business Management",
-    title: "Smart Business Management System",
+    category: "AI COMMUNICATION",
+    title: "AI-Powered Mass Communication Platform",
     description:
-      "A centralized platform designed to simplify business operations, manage workflows, and improve visibility.",
-    tags: ["Management", "Automation", "Web App"],
+      "A cloud-based platform designed to help businesses create, manage, and streamline communication across multiple channels using AI-powered tools and APIs.",
+    tags: ["Artificial Intelligence", "API Integration", "Web App"],
   },
   {
     number: "02",
