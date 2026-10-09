@@ -7,7 +7,12 @@ const projects = [
     title: "Aruvixa PR: AI Personal PR & Communications Platform",
     description:
       "An AI assistant that researches your industry, spots communication opportunities, and drafts LinkedIn posts for you to approve. Built for founders and professionals.",
-    tags: ["Artificial Intelligence", "API Integration", "Research Automation", "LinkedIn"],
+    tags: [
+      "Artificial Intelligence",
+      "API Integration",
+      "Research Automation",
+      "LinkedIn",
+    ],
   },
   {
     number: "02",
@@ -81,7 +86,7 @@ export default function Projects() {
               whileHover={{ scale: 1.01 }}
               className="group relative overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm transition-shadow duration-500 hover:shadow-2xl hover:shadow-slate-200/70 md:p-10"
             >
-              <div className="grid gap-10 md:grid-cols-[120px_1fr_auto] md:items-center">
+              <div className="grid gap-10 md:grid-cols-[120px_1fr] md:items-center">
                 {/* Number */}
                 <div className="text-5xl font-bold tracking-tight text-slate-200 transition-colors duration-300 group-hover:text-blue-100">
                   {project.number}
@@ -101,6 +106,7 @@ export default function Projects() {
                     {project.description}
                   </p>
 
+                  {/* Project Tags */}
                   <div className="mt-6 flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
                       <span
@@ -111,11 +117,6 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                </div>
-
-                {/* Arrow */}
-                <div className="flex h-14 w-14 items-center justify-center rounded-full border border-slate-200 text-xl text-slate-400 transition-all duration-300 group-hover:border-slate-950 group-hover:bg-slate-950 group-hover:text-white">
-                  ↗
                 </div>
               </div>
 
